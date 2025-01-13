@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Web Page Project</title>
+
+    <link rel ="stylesheet" href="css1.css">
+    
+</head>
+
+<body>
+    <!-----------------------Navigation part-------------------------->
+    <nav class=" navbar">
+        <div class="logo">
+            <img src="https://csite.nicepage.com/Images/logo-w.png" alt="img">
+
+
+        </div>
+        <ul>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">Services</a>
+            <a href="#">Blog</a>
+        </ul>
+
+    </nav>
+    <!--Paragarph middle-->
+    <section class="text">
+        <div class="one">
+
+            <h3 id="h3tag">Add more speed to your website</h3>
+            <h1 id="h1tag">Your success in the industry is our mission</h1>
+            <p>Actually, this is quite simple to achieve – because each time we help them in sorting out different
+                accounting intricacies or save the day before filing the taxes, they are happy indeed</p>
+            <button class="btn">Read more</button>
+        </div>
+
+    </section>
+
+    <!---------------------------Cards part---------------------------------------------------->
+
+    <section class="container-card">
+       
+        <div class="card1  back-color">
+            <h1 class="year">2018</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+        </div>
+
+        <div class="card1  back-color ">
+            <h1 class="year">2019</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+        </div>
+
+        <div class="card1 back-color">
+            <h1 class="year">2020</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+        </div>
+        <div class="card1 back-color">
+            <h1 class="year">2021</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+        </div>
+        <div class="card1 back-color">
+            <h1 class="year">2022</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+        </div>
+        <div class="card1 back-color">
+            <h1 class="year">2023</h1>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+        </div>
+    
+    </section>
+    <!--Last card ke Niche-->
+
+    <div class="content-info">
+        <div class="content-info1">
+            <h3>Explore national parks with digital tours,
+                <br> ranger programs, educational opportunities, and more.</h3>
+            <p class="solid">Lorem ipsum dolor sit amet, consectetur</p>
+            <p class="solid">lsed do eiusmod tempor incididun</p>
+            <p>Image</p>
+            <button  id="btn-3">Book Now</button>
+        </div>
+        <div class="content-info2" >
+           <p>Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce husb</p>
+           <p id="content-info2">Oh feel if up to till like. He an thing rapid these after going drawn or. Timed she his law the spoil round defer. In surprise concerns informed betrayed </p>
+        </div>
+        
+        <div class="content-info1" id="info1-poster">
+       
+        </div>
+        <div class="content-info2" id="info2-poster">
+           
+        </div>
+    </div>
+
+    <!----------Form Section----------------->
+
+   <!--
+    <div class="Form">
+        <h2 id="form-h1">Contact us</h2>
+        <Form id="one">
+           
+            <label for="Name">Name</label>
+            <input type="text" placeholder="Enter your Name">
+
+            <label for="Name">Phone</label>
+            <input type="number" placeholder="Enter your Phone">
+
+            <label for="Name">Email</label>
+            <input type="email" placeholder="Enter your Email">
+
+            <label for="comments">Message</label>
+            <textarea name="comments"  id="comments"placeholder="Write your comments here..." rows="5" cols="30"></textarea>
+            
+            <button id="btn-4">Submit</button>
+        </Form>
+    </div>  -->
+
+</section>
+
+</body>
+
+</html>
