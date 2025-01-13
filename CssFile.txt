@@ -1,0 +1,341 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*---------- Navigation part --------------*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border: solid 0px;
+    background-color: #f2f2f2;
+   
+    
+
+}
+
+.navbar ul {
+    display: flex;
+    gap: 70px;
+  margin: 10px ;
+    padding: 20px;
+ 
+    
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar .logo {
+    margin: 10px;
+
+}
+/*---------- Paragarph middle-- --------------*/
+
+
+.text {
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/3502986/images/pexels-photo-733500.jpg);
+    background-size: cover;
+
+    background-position: center;
+    background-position: top;
+    box-sizing: border-box;
+    height: 100vh;    /* media queires mule 0 kel ahe - 100vh */
+    display: flex;
+    box-sizing: border-box;
+
+}
+
+.text .one {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 130px;
+}
+
+.text .one #h3tag {
+    margin-top: 130px;
+    font-size: 1.5rem;
+    color: rgb(168, 163, 163);
+
+}
+
+.text .one #h1tag {
+    font-size: 2rem;
+    margin-top: 12px;
+    width: 450px;
+}
+
+.text .one p {
+
+    margin-top: 18px;
+    width: 400px;
+    color: rgb(44, 43, 43);
+    font-size: 1.3rem;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.text .one .btn {
+    font-size: 1.6rem;
+    border-radius: 15px;
+    border: 0px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 17px;
+    background-color: rgb(235, 80, 8);
+    color: white;
+}
+.one .btn:hover{
+    background-color: #11ce82;
+}
+/* ------------Cards part (six cards)----------------*/
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 10px;
+    background-color: #f0cccf;
+    padding-left: 120px;
+    padding-right: 120px;
+    
+}
+
+.container-card .card1 {
+    width: 340px;
+    border: 0px solid;
+    text-align: center;
+    height: 30vh;
+    padding-top: 50px;
+    border-radius: 1px;
+    margin: 10px;
+  
+}
+.back-color{
+    background-color:white;
+
+}
+.card1 .year{
+    padding-bottom: 26px;
+    padding-top: 35px;
+}
+
+ .btn-2{
+    font-size:1.4rem ;
+    padding: 20px;
+    border-radius: 50px;
+    border: 0px;
+    width: 170px;
+    background-color: #f0cccf ;
+    color: white;
+}
+.btn-2:hover{
+    background-color: brown;
+}
+/* ---Content part ---card ke niche ka paragraph */
+.content-info{
+   
+     display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 80px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+ 
+}
+.content-info1{
+    width: 45%;
+    border: 2px solid white;
+    background-color:white;
+    line-height: 40px;
+    padding: 30px;
+    margin-top: 0px;
+    margin-left: 90px;
+}
+.content-info .content-info1{
+    font-size: 1.2rem;
+}
+
+.content-info2 #content-info2{
+    margin-top: 50px;
+    font-weight:900;
+
+}
+
+.content-info2{
+    background-color: #ec5e1c;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    margin-top: 40px;
+}
+/* back ground image girl with laptop 1 */
+#info1-poster{
+    background-image: url('https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/29fd0360109159e1970d573a/woman-sitting-sofa-with-laptop-legs.jpg');
+    background-size:cover;
+    background-position: center;
+    background-position: top;
+    height: 300px;
+    margin-top: 20px;
+  
+}
+/* back ground image girl with laptop 2*/
+#info2-poster{
+    background-image: url('	https://assets.nicepagecdn.com/11a8ddce/3502986/images/lovely-woman-using-laptop-office.jpg');
+     background-size:cover;
+     background-position: center;
+     background-position: top;
+     height: 300px;
+     margin-top: 50px;
+}
+
+  #btn-3{
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:palevioletred ;
+    color: white;
+    border: 0px solid;
+    
+ }
+ #btn-3:hover{
+    background-color: brown;
+ }
+ /*------ form section-------- */
+ form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 6px;
+  width: 300px;  
+  border: 1px solid;
+  border-radius: 20px;
+  margin-left: 600px;
+  background-color: #28d862;
+  font-size: 1.2em;
+  color: #2d6eae;
+}
+#form-h1{
+    color: #ce4711;
+    margin-left: 720px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 1.7rem;
+}
+form #btn-4{
+    border-radius: 16px;
+    width: 90px;
+    padding: 8px;
+    font-size: 1.1em;
+    text-align: center;
+    background-color: black;
+    color: rgb(29, 221, 29);
+}
+/* media queies */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .text .one {
+        margin-left: 20px;
+        
+    }
+    
+        .text .one .btn {
+            font-size: 1em;
+            border-radius: 15px;
+            border: 0px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 17px;
+            background-color: rgb(235, 80, 8);
+            color: white;
+        }
+       
+       
+    
+
+    .container-card .card1 {
+        width: 90%;
+    }
+
+    .content-info {
+        flex-direction: column;
+       
+    }
+
+    form {
+        width: 90%;
+    }
+    .content-info .content-info1 h3{
+        font-size: 1em;
+        line-height: 30px;
+        width: 200px;
+      
+    }
+   .content-info1 .solid{
+    width: 200px;
+    line-height: 30px;
+
+    }
+   .content-info1 .btn-3{
+        margin-left: 120px;
+    }
+}
+/* media queries second */
+
+
+@media (max-width: 480px) {
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .text .one {
+        margin-left: 10px;
+    }
+
+    .text h1 {
+        font-size: 1.2rem;
+    }
+
+    .text p {
+        font-size: 0.9rem;
+    }
+
+    .container-card .card1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .content-info1, .content-info2 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    form {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}
+
